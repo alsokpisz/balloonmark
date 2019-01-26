@@ -1,21 +1,22 @@
 # balloonmark
 
-# Git Commands
+### Git Commands
+
 git remote add origin <url>
---------------------------------
+---
 git checkout -b <branchname>
 git add .
 git status
 git commit -m "Blah comment"
 (do this until you have something working, then)
 git push origin <branchname>
----------------------------------
+---
 (DO NOT USE UNLESS APPROVED) (Prepare for diff issues)
 git checkout master
 git merge <branchname>
 git push origin master
 
-# Checklist for Setup
+### Checklist for Setup
 [Everyone] Pull from master branch to update code (git pull)
 [Everyone] Navigate to folder containingsrc in VSCode terminal. 
 [Everyone] Download 
