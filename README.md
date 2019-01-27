@@ -1,5 +1,6 @@
 # balloonmark
 
+Make sure you have at least Node 8 installed.
 ### One-Time Git Command
 git remote add origin <url>
 ---
