@@ -89,7 +89,11 @@ var options = {
       filename: "balloonmark.html",
       chunks: ["balloonmark"]
     }),
-    new WriteFilePlugin()
+    new WriteFilePlugin(),
+    new webpack.ProvidePlugin({
+        d3: 'd3',
+        $: 'jquery'
+    })
   ]
 };
 
