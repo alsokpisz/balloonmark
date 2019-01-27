@@ -2,9 +2,11 @@
 
 Make sure you have at least Node 8 installed.
 ### One-Time Git Command
+
 git remote add origin <url>
 ---
 ### Changing Files
+
 git checkout -b <branchname>
 git add .
 git status
@@ -13,12 +15,14 @@ git commit -m "Blah comment"
 git push origin <branchname>
 ---
 ### PLEASE CHECK WITH ALSTEN: Adding Files to Remote Repo
+
 (DO NOT USE UNLESS APPROVED) (Prepare for diff issues)
 git checkout master
 git merge <branchname>
 git push origin master
 ---
 ### Checklist for Setup
+
 [Everyone] Pull from master branch to update code (git pull)
 [Everyone] Navigate to folder containingsrc in VSCode terminal. 
 [Everyone] Download 
