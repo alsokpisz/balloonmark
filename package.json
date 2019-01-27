@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "d3": "^5.7.0",
-    "indexeddb": "0.0.0"
+    "indexeddb": "0.0.0",
+    "webpack-provide-global-plugin": "0.0.1"
   }
 }
