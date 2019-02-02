@@ -29,6 +29,8 @@ function initbookmarks(id) {
     });
 }
 
+//[FUNCTIONAL] Event listeners for pouchDB actions with buttons described in balloonmark.html
+
 //[DEV] Console.logs all bookmarks
 function testconsolelogall(bookmarks) {
     for (var i=0;i<bookmarks.length;i++) {
